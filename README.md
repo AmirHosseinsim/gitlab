@@ -22,11 +22,20 @@ For convenience, we will also set an environment variable that will contain the 
 >
 
 In the next step, we create the docker-compose.yml file with the following content:
+
 > 
 
 # docker-compose.yml
 
 > docker-compose up -d
+
+
+To log in to GitLab for the first time, you need a temporary password, which is generated automatically during installation. We get the password using the command:
+
+> docker exec -it gitlab-ce grep 'Password:' /etc/gitlab/initial_root_password
+
+
+
 
 
 
