@@ -26,4 +26,7 @@ In the next step, we create the docker-compose.yml file with the following conte
 
 # docker-compose.yml
 
+> docker-compose up -d
+
+
 
