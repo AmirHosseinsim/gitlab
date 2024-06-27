@@ -15,8 +15,12 @@ Before starting work, prepare the required tools. You can find a description of 
 Configuration for Docker Compose
 We will start work on the installation by creating a dedicated directory in which we will store data and Gitlab configuration
 > mkdir gitlab
+
 For convenience, we will also set an environment variable that will contain the path to our Gitlab directory:
+
  > export GITLAB_HOME=$(pwd)/gitlab
+>
+
 In the next step, we create the docker-compose.yml file with the following content:
 > 
 
